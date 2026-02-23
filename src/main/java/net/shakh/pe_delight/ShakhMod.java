@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.shakh.pe_delight.block.ModBlocks;
 import net.shakh.pe_delight.item.ModCreativeModTabs;
 import net.shakh.pe_delight.item.ModItems;
 import org.slf4j.Logger;
@@ -35,6 +36,7 @@ public class ShakhMod
         ModCreativeModTabs.register((modEventBus));
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.shakh.pe_delight.ShakhMod;
+import net.shakh.pe_delight.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -23,6 +24,8 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(Items.DIAMOND);
 
+                        pOutput.accept(ModBlocks.PAVO_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_PAVO_BLOCK.get());
 
                     })
                     .build());

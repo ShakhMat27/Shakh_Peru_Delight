@@ -2,5 +2,8 @@
   "item.pe_delight.pavo": "Pavo",
   "item.pe_delight.raw_pavo": "Raw Pavo",
 
+  "block.pe_delight.pavo_block": "Block of Pavo",
+  "block.pe_delight.raw_pavo_block": "Block of Raw Pavo",
+
   "creativetab.tutorial_tab": "Pavo Tutorial Tab"
 }
