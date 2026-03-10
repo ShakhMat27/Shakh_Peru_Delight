@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.shakh.pe_delight.ShakhMod;
+import net.shakh.pe_delight.item.custom.FuelItem;
 
 import java.rmi.registry.Registry;
 
@@ -20,6 +21,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> MARACUYA = ITEMS.register("passion_fruit",
             () -> new Item(new Item.Properties().food(ModFoods.MARACUYA)));
+
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+            () -> new FuelItem(new Item.Properties(), 400));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

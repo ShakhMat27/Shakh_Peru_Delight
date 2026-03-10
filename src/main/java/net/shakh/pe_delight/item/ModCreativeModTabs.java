@@ -31,6 +31,8 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.MARACUYA.get());
 
+                        pOutput.accept(ModItems.PINE_CONE.get());
+
                     })
                     .build());
 
