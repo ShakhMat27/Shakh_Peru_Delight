@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "pe_delight:pavo_ore"
+    },
+    "title": {
+      "translate": "advancement.pe_delight.pavoraton.title"
+    },
+    "description": {
+      "translate": "advancement.pe_delight.pavoraton.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/mine_stone",
+  "criteria": {
+    "pico_el_pavo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pe_delight:raw_pavo"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -10,5 +10,8 @@
   "item.pe_delight.passion_fruit": "Passion Fruit",
   "item.pe_delight.pine_cone": "Pine Cone",
 
+  "advancement.pe_delight.pavoraton.title": "TurkeyMouse",
+  "advancement.pe_delight.pavoraton.description": "You've mined the legendary turkey ore!",
+
   "creativetab.tutorial_tab": "Pavo Tutorial Tab"
 }

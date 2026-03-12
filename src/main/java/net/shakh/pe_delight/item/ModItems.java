@@ -8,7 +8,6 @@ import net.minecraftforge.registries.RegistryObject;
 import net.shakh.pe_delight.ShakhMod;
 import net.shakh.pe_delight.item.custom.FuelItem;
 
-import java.rmi.registry.Registry;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
