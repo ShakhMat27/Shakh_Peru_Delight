@@ -29,7 +29,7 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.PAVO_ORE.get());
 
-                        pOutput.accept(ModItems.MARACUYA.get());
+                        pOutput.accept(ModItems.PASSION_FRUIT.get());
 
                         pOutput.accept(ModItems.PINE_CONE.get());
 

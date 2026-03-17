@@ -6,6 +6,6 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraftforge.event.entity.living.MobEffectEvent;
 
 public class ModFoods {
-    public static final FoodProperties MARACUYA = new FoodProperties.Builder().nutrition(2).fast()
+    public static final FoodProperties PASSION_FRUIT = new FoodProperties.Builder().nutrition(2).fast()
             .saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 200), 0.5f).build();
 }

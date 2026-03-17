@@ -18,8 +18,8 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_PAVO = ITEMS.register("raw_pavo",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> MARACUYA = ITEMS.register("passion_fruit",
-            () -> new Item(new Item.Properties().food(ModFoods.MARACUYA)));
+    public static final RegistryObject<Item> PASSION_FRUIT = ITEMS.register("passion_fruit",
+            () -> new Item(new Item.Properties().food(ModFoods.PASSION_FRUIT)));
 
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
             () -> new FuelItem(new Item.Properties(), 400));
