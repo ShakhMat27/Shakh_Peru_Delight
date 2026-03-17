@@ -30,6 +30,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.PAVO_ORE.get());
 
                         pOutput.accept(ModItems.PASSION_FRUIT.get());
+                        pOutput.accept(ModItems.PASSION_FRUIT_CUTS.get());
+                        pOutput.accept(ModItems.PASSION_FRUIT_JUICE.get());
 
                         pOutput.accept(ModItems.PINE_CONE.get());
 
